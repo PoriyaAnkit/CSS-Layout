@@ -1,0 +1,1470 @@
+/* ==========================offline fonsts connectivity========================= */
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-300.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/*========================default css ==============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+button {
+    font-family: 'Poppins';
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.ptb {
+    padding: 70px 0;
+}
+
+.pt {
+    padding-top: 70px;
+}
+
+.pb {
+    padding-bottom: 70px;
+}
+
+:root {
+    --theme: #f6f7fa;
+    --blue: #007bff;
+    --orange: #fdb70d;
+    --text: #0b1c39;
+    --white: #fff
+}
+
+/* ======================header section css======================== */
+
+.bg_theme {
+    background-color: var(--theme);
+    padding: 15px 0;
+}
+
+.contact a {
+    color: #0b1c39;
+}
+
+.contact span {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.phone {
+    padding-right: 20px;
+    color: #2572ff;
+}
+
+.profile span {
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: lighter
+}
+
+.contact a:hover {
+    color: var(--blue);
+}
+
+.profile a {
+    color: var(--text);
+    text-transform: capitalize;
+}
+
+.profile a:hover {
+    color: var(--blue);
+}
+
+/* ----------------header section 2--------------------- */
+.main_menu li {
+    position: relative;
+}
+
+.main_menu li a {
+    color: var(--text);
+    text-transform: capitalize;
+    padding: 37px 22px;
+    display: block;
+
+}
+
+.main_menu li:hover>a {
+    color: var(--blue);
+}
+
+.down {
+    position: absolute;
+    top: 43px;
+    right: 0;
+}
+
+.sub_menu {
+    position: absolute;
+    display: none;
+    width: 300px;
+    left: 0;
+    background-color: var(--white);
+    padding: 6px 30px;
+    box-shadow: 2px 2px 10px gray;
+    transition: 3s;
+    z-index: 3;
+
+
+}
+
+a.active {
+    color: var(--blue) !important;
+}
+
+.sub_menu li a {
+    padding: 10px 0;
+}
+
+.main_menu li:hover .sub_menu {
+    display: block;
+
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 13px 32px;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: var(--blue);
+    margin-left: 10px;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+/* ====================== slider section css ====================== */
+
+.slider {
+    background-image: linear-gradient(rgb(11, 28, 57, 0.6), rgb(11, 28, 57, 0.4)), url(../image/asset\ 41.png);
+    background-size: cover;
+    padding: 250px 0;
+
+}
+
+.slider1 {
+    background-image: linear-gradient(rgb(11, 28, 57, 0.6), rgb(11, 28, 57, 0.4)), url(../image/asset\ 42.png);
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.slider2 {
+    background-image: linear-gradient(rgb(11, 28, 57, 0.6), rgb(11, 28, 57, 0.4)), url(../image/asset\ 43.jpeg);
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.slider_txt {
+    text-align: center;
+}
+
+
+.slider_txt h5 {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.slider_txt h1 {
+    font-size: 60px;
+    width: 770px;
+    margin: auto;
+    text-transform: capitalize;
+    padding: 20px 0 20px;
+    color: var(--white);
+}
+
+.btn1 {
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2px solid var(--white);
+    background-color: transparent;
+    padding: 14px 40px;
+
+}
+
+.btn1:hover {
+    border: 2px solid var(--blue);
+    color: var(--white);
+    background-color: var(--blue);
+
+}
+
+#banner_part .owl-theme .owl-nav {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#banner_part.owl-carousel .owl-nav button.owl-prev {
+    border: 2px solid #d4d7dc;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #d4d7dc;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    top: 47%;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 2s;
+
+}
+
+#banner_part.owl-carousel .owl-nav button.owl-next {
+    border: 2px solid #d4d7dc;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #d4d7dc;
+    background-color: transparent;
+    position: absolute;
+    right: 50px;
+    top: 47%;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+#banner_part.owl-carousel .owl-nav button:hover.owl-next,
+#banner_part.owl-carousel .owl-nav button:hover.owl-prev {
+    background-color: var(--blue);
+    border: none;
+}
+
+
+.ltr {
+    position: relative;
+}
+
+.ltr1 {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 5;
+    background-color: black;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    color: var(--white);
+}
+
+.ltr1:hover {
+    background-color: var(--blue);
+}
+
+.rtl {
+    position: absolute;
+    top: 58%;
+    right: 20px;
+    z-index: 5;
+    background-color: var(--blue);
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    color: var(--white);
+}
+
+.rtl:hover {
+    background-color: black;
+}
+
+.chat {
+    position: absolute;
+    top: 85%;
+    right: 80px;
+    z-index: 5;
+    background-color: var(--white);
+    width: 150px;
+    border-radius: 20px;
+    /* height: 50px; */
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    color: var(--blue);
+}
+
+.message {
+    margin-left: 20px;
+    position: absolute;
+    top: 85%;
+    right: 20px;
+    z-index: 5;
+    background-color: var(--blue);
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    color: var(--white);
+    font-size: 20px;
+}
+
+/* ======================== slider css end ======================= */
+
+/*  =======================registration form start ====================== */
+.education {
+    width: 670px;
+    height: 500px;
+}
+
+.pic2 {
+    width: 270px;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.pic2 h1 {
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.pic2 img {
+    width: 55px;
+    height: 55px;
+}
+
+.pic2 p {
+    color: #626a77;
+}
+
+.form {
+    width: 370px;
+    padding: 45px 40px 40px;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: -70px;
+    z-index: 50;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding-bottom: 120px;
+}
+
+.owl-carousel {
+    z-index: -3;
+    position: relative;
+}
+
+.form h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.name {
+    padding: 20px;
+    width: 290px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #f0f3f7;
+    text-transform: capitalize;
+
+}
+
+.name:hover {
+    background-color: transparent;
+}
+
+.apply {
+    padding: 20px;
+    width: 290px;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background-color: var(--blue);
+}
+
+.apply:hover {
+    background-color: transparent;
+}
+
+select {
+    padding: 20px;
+    width: 290px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #f0f3f7;
+
+}
+
+option {
+    font-size: 16px;
+}
+
+/*  =======================registration form end ====================== */
+
+/*  ======================= expert learning start ====================== */
+.img1 img {
+    width: 80%;
+    height: auto;
+
+}
+
+.img1 {
+    width: 50%;
+    position: relative;
+}
+
+.text1 {
+    width: 50%;
+    margin: 60px 0;
+}
+
+.text1 h1 {
+    font-size: 50px;
+}
+
+.text1 h3 {
+    padding: 20px 0;
+    color: var(--blue);
+}
+
+.text1 p {
+    color: #626a77;
+}
+
+.btn2 {
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2px solid var(--white);
+    background-color: var(--blue);
+    padding: 14px 40px;
+
+}
+
+.btn2:hover {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    background-color: transparent;
+
+}
+
+.inner_part {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -60px;
+    text-align: center;
+    left: -60px;
+    z-index: 3;
+}
+
+.inner_part .inner h1 {
+    line-height: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+
+.inner_part .inner span {
+    line-height: 43px;
+    font-size: 40px;
+    color: var(--white);
+}
+
+/*  ======================= expert learning end ======================== */
+
+/*  ======================= online cource categories start ======================== */
+.online {
+    width: 600px;
+    height: 240px;
+    margin: auto;
+    text-align: center;
+}
+
+.online h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.online p {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+
+.item1:hover {
+    transform: translateY(-15px);
+}
+
+.color img {
+    width: 75px !important;
+    height: 75px;
+    margin: auto;
+
+}
+
+.item1 {
+    margin-top: 20px;
+    transition: 2s;
+}
+
+.color {
+    background-color: rgb(255, 37, 114, 0.2);
+    padding: 60px 0;
+    text-align: center;
+    /* color: var(--blue); */
+}
+
+.color h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #ff2572;
+}
+
+.color p {
+    color: #ff2572;
+}
+
+
+.color1 img {
+    width: 75px !important;
+    height: 75px;
+    z-index: 3;
+    margin: auto;
+
+}
+
+.color1 {
+    background-color: #ECFBF0;
+    /* opacity: .4; */
+    padding: 60px 0;
+    text-align: center;
+    color: var(--blue);
+}
+
+.color1 h1 {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.color2 p {
+    color: #007bff;
+
+}
+
+.color2 img {
+    width: 75px !important;
+    height: 75px;
+    z-index: 3;
+    margin: auto;
+
+}
+
+.color2 {
+    background-color: rgb(37, 114, 255, .1);
+    /* opacity: .4; */
+    padding: 60px 0;
+    text-align: center;
+    color: var(--blue);
+}
+
+.color2 h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+
+}
+
+.color3 img {
+    width: 75px !important;
+    height: 75px;
+    z-index: 3;
+    margin: auto;
+
+}
+
+.color3 {
+    background-color: #FFF9ED;
+    /* opacity: .4; */
+    padding: 60px 0;
+    text-align: center;
+    color: var(--blue);
+}
+
+.color3 h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #faad19;
+}
+
+.color3 p {
+    color: #faad19;
+
+}
+
+.color4 img {
+    width: 75px !important;
+    height: 75px;
+    z-index: 3;
+    margin: auto;
+
+}
+
+.color4 {
+    background-color: #ECFBF0;
+    /* opacity: .4; */
+    padding: 60px 0;
+    text-align: center;
+    color: var(--blue);
+}
+
+.color4 h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #13cd3b;
+}
+
+.color4 p {
+    color: #13cd3b;
+}
+
+/* 
+.owl-theme .owl-nav.disabled+.owl-dots
+{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: -60px;
+} */
+.owl-theme .owl-dots {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: -60px;
+}
+
+/* .owl-theme .owl-dots .owl-dot span{
+    background-color: transparent;
+    border: 2px solid red;
+    width: 20px;
+    height: 10px;
+  } */
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: red;
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+/* .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: red;
+  } */
+/*  ======================= online cource categories end ======================== */
+/* =============================slider2 start========================== */
+/* .box{
+    opacity: .5;
+    margin: auto;
+    background-color: #212529;
+
+} */
+.section1 {
+    padding-top: 50px;
+}
+
+.bg_theme3 {
+    background-color: #f6f7fa;
+}
+
+.box1 {
+    margin: 0 300px;
+}
+
+.box1 h1 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box1 p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.item2 {
+    width: 350px !important;
+    margin-bottom: 10px;
+}
+
+.item2 .stud {
+    /* padding-bottom: 20px; */
+    height: 270px;
+    width: 350px !important;
+
+
+}
+
+.padd {
+    padding: 0 30px;
+    background-color: var(--white);
+}
+
+.padd:hover {
+    box-shadow: 0 2px 10px var(--white);
+}
+
+.free p:first-child {
+    background-color: var(--blue);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-top: 20px;
+
+}
+
+.free p:last-child {
+    margin-top: 20px;
+
+}
+
+.padd h3 {
+    padding: 20px 0;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.padd h3:hover a {
+    color: var(--blue);
+}
+
+.smith .adam {
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.smith p {
+    padding-left: 20px;
+    text-transform: capitalize;
+    margin-top: 25px;
+
+}
+
+.smith p:hover {
+    color: var(--blue);
+}
+
+.hr {
+    margin: 18px 0;
+    font-weight: lighter;
+}
+
+.week p span {
+    padding-left: 10px;
+    color: var(--text);
+}
+
+.week p {
+    margin-bottom: 20px;
+
+}
+
+/* =============================slider2 end======================== */
+/* =============================  top istructors start ======================== */
+.top {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+.top h1 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.top p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.jason {
+    padding-bottom: 70px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.sale {
+    margin-top: 20px;
+
+}
+
+.sale h3:hover {
+    color: var(--blue);
+}
+
+.imga img {
+    height: 300px;
+    width: 250px;
+}
+
+.face p {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--white);
+    text-align: center;
+    line-height: 40px;
+    color: var(--blue);
+    /* border: 2px solid var(--text); */
+    margin-bottom: 10px;
+}
+
+.face p:hover {
+    background-color: var(--blue);
+    color: var(--text);
+}
+
+.face {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    transition: .5s;
+    z-index: 3;
+    transform: translateX(-100px);
+}
+
+.imga:hover .face {
+    transform: translateX(30px);
+}
+
+.imga::before {
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    background-color: #0b1c39;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.imga:hover::before {
+    opacity: .4;
+}
+
+/* .imga img:hover{
+    transform: scale(1.3);
+} */
+
+
+
+
+/* =============================  top istructors end ======================== */
+/* =============================  motivation start ======================== */
+.bg_theme4 {
+    background-color: #f6f7fa;
+}
+
+.text2,
+.vidio1 {
+    width: 50%;
+}
+
+.text2 {
+    padding-right: 70px;
+}
+
+.text2 h1 {
+    font-size: 40px;
+}
+
+.text2 p {
+    color: #626a77;
+    padding: 20px 0;
+}
+
+.vidio1 img {
+    width: 120%;
+    height: 650px;
+}
+
+.text2 button {
+    padding: 15px 0px;
+    text-align: center;
+    width: 250px;
+    text-transform: capitalize;
+    background-color: var(--white);
+    border: none;
+    margin: 10px;
+}
+
+.text2 button span {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.text2 button:hover a {
+    color: var(--blue);
+}
+
+.vidio1 {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+
+
+}
+
+.play .play1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    line-height: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+
+}
+
+.vidio2 {
+    width: 100px;
+    height: 100px;
+    background-color: #0b1c39;
+}
+
+/* =============================  motivation  end ======================== */
+/* ============================= upcoming events  start ======================== */
+
+.upcoming {
+    margin: 0 250px;
+    text-align: center;
+}
+
+.upcoming h1 {
+    font-size: 40px;
+    margin-bottom: 13px;
+    font-weight: bolder;
+}
+
+.upcoming p {
+    color: #626a77;
+}
+
+.container1 {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.course1 {
+    margin-top: 50px;
+    background-color: var(--white);
+    padding: 40px;
+}
+
+.course1 .photo {
+    width: 40%;
+    padding-top: 30px;
+}
+
+.course1 .process {
+    width: 60%;
+}
+
+.process h3 {
+    color: #fdb70d;
+}
+
+.process h1 {
+    color: var(--text);
+    padding: 20px 0;
+}
+
+.process p {
+    color: #626a77;
+    padding: 10px 0;
+}
+
+.process span {
+    padding-left: 8px;
+}
+
+.view {
+    text-align: center;
+}
+
+.view .btn3 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.view .btn3:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+/* =============================  upcoming events end ======================== */
+/* ============================= about us slider start ======================== */
+.bg_theme6 {
+    background-color: var(--blue);
+}
+
+.about {
+    width: 50%;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: var(--white);
+}
+
+.slide {
+    width: 50%;
+}
+
+.item3 p {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.adam {
+    width: 70px !important;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.adam1 h5 {
+    padding-top: 45px;
+    padding-left: 20px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+#slider3.owl-theme .owl-nav {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    /* top:50%; */
+}
+
+.item3 {
+    position: relative;
+
+}
+
+#slider3.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -89%;
+    border: 2px solid var(--white);
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    border-radius: 50%;
+    color: var(--white);
+}
+
+#slider3.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    left: -100%;
+    border: 2px solid var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: #0b1c39; */
+    color: var(--white);
+    bottom: 20px;
+}
+
+#slider3.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+#slider3.owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+/* =============================  about us slider end ======================== */
+
+/* ============footer start================ */
+.bg {
+    background-color: #f6f7fa;
+}
+
+.logo {
+    width: 25%;
+}
+
+.music {
+    width: 25%;
+    padding-left: 60px;
+}
+
+.math {
+    width: 25%;
+    padding-left: 60px;
+
+}
+
+.carieer {
+    width: 25%;
+    padding-left: 60px;
+
+}
+
+ul h3 {
+    color: var(--text);
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+ul li {
+    color: #626a77;
+    margin: 6px 0;
+    text-transform: capitalize;
+}
+
+.logo ul li:first-child {
+    margin-bottom: 30px;
+}
+
+.logo ul li:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.logo ul li:nth-child(3) {
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+
+.logo ul li:nth-child(4) {
+    color: var(--blue);
+}
+
+.music ul li:hover {
+    color: var(--blue);
+
+}
+
+.math ul li:hover {
+    color: var(--blue);
+
+}
+
+.carieer ul li:hover {
+    color: var(--blue);
+
+}
+
+.line {
+    margin: 60px 0 30px 0;
+}
+
+.icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    opacity: .7;
+}
+
+.icons i:hover {
+    background-color: var(--blue);
+}
+
+/* ============footer end================ */
+
+/* all courses start */
+.search {
+    position: relative;
+}
+
+.search input {
+    padding: 10px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.glass {
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+}
+
+.english img {
+    width: 240px;
+    height: 200px;
+}
+
+.freee {
+    margin: 15px 20px 30px;
+}
+
+.english {
+    border: 1px solid var(--white);
+    margin-right: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.comp h3 {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+}
+
+.english:hover {
+    box-shadow: 1px 1px 15px var(--text);
+}
+
+.picc {
+    transition: 2s;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.english:hover .picc {
+    transform: scale(1.2);
+
+}
+
+.freee h3 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: var(--blue);
+}
+
+.freee h4 {
+    margin-top: 30px;
+}
+
+/* all courses end */
+/* blog menu start */
+.grid {
+    background-image: url(../image/breadcrumb-2.png);
+    /* height: 100vh; */
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+
+.blogg {
+    text-align: center
+}
+
+.blogg h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+.word {
+    width: 50%;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.theme {
+    background-color: rgb(33, 37, 41, .1);
+
+}
+
+.theme img {
+    width: 100%;
+}
+
+.admin1 {
+    margin: 0 30px;
+
+}
+
+.admin1 h1 {
+    font-size: 30px;
+}
+
+.admin1 h1:hover {
+    color: var(--blue);
+}
+
+.admin1 p {
+    margin: 20px 0;
+    color: #626a77;
+}
+
+.admin1 h3 {
+    padding-bottom: 35px;
+}
+
+/* blog menu end */
